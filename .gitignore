@@ -4,4 +4,4 @@ searxng-docker.service
 caddy
 srv
 searxng/uwsgi.ini
-searxng/settings.yml
+config/settings.yml
