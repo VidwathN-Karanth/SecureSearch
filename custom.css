@@ -22,3 +22,11 @@ article.result, .result {
   border-radius:10px !important;
 }
 header, footer, .header, .footer { background: transparent !important; }
+
+/* home logo: remove SearXNG image, show SecureSearch text */
+#main_index .title { background-image:none !important; min-height:0 !important; height:auto !important; }
+#main_index .title h1 {
+  visibility:visible !important; text-indent:0 !important;
+  font-size:3rem !important; line-height:1.2 !important; letter-spacing:1px;
+  color:var(--ss-accent) !important; font-style:italic !important; font-weight:800 !important;
+}
