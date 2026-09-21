@@ -1,0 +1,24 @@
+/* ===== SecureSearch theme ===== */
+:root { --ss-accent:#14b8a6; }
+html, body {
+  background: linear-gradient(135deg,#0f172a 0%,#0b3b4a 55%,#134e4a 100%) !important;
+  background-attachment: fixed !important;
+  color:#e2e8f0 !important;
+}
+a { color: var(--ss-accent) !important; }
+#q, input[type=search], .autocomplete input {
+  background: rgba(255,255,255,.08) !important;
+  color:#e2e8f0 !important;
+  border:1px solid rgba(255,255,255,.18) !important;
+}
+button, .search_submit, #send_search {
+  background: var(--ss-accent) !important;
+  border-color: var(--ss-accent) !important;
+  color:#04201c !important;
+}
+article.result, .result {
+  background: rgba(15,23,42,.55) !important;
+  border:1px solid rgba(255,255,255,.08) !important;
+  border-radius:10px !important;
+}
+header, footer, .header, .footer { background: transparent !important; }
